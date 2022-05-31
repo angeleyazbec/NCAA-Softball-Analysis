@@ -1,4 +1,4 @@
-,team,conference,sos,prev_sos,adj_rpi,adj_rpi_value,rpi,rpi_value,adj_non-conf_rpi,conf_rpi,nc_sos,nc_sos_value,advanced,win,loss,road_win,road_loss,last_10_win,last_10_loss,rpi_1_win,rpi_1_loss,rpi_26_win,rpi_26_loss,rpi_51_win,rpi_51_loss,rpi_101_win,rpi_101_loss,top_100_win,top_100_loss,below_150_win,below_150_loss,non_conf_win,non_conf_loss,conf_win,conf_loss
+,team,conference,sos,prev_sos,adj_rpi,adj_rpi_value,rpi,rpi_value,adj_non_conf_rpi,conf_rpi,nc_sos,nc_sos_value,advanced,win,loss,road_win,road_loss,last_10_win,last_10_loss,rpi_1_win,rpi_1_loss,rpi_26_win,rpi_26_loss,rpi_51_win,rpi_51_loss,rpi_101_win,rpi_101_loss,top_100_win,top_100_loss,below_150_win,below_150_loss,non_conf_win,non_conf_loss,conf_win,conf_loss
 0,Tennessee,SEC,1,1,12,0.6547,9,0.6414,16,1,10,0.60414,1,39,16,9,5,7,3,8,12,11,4,7,0,13,0,26,16,9,0,23,7,23,7
 1,Oregon,Pac-12,2,2,17,0.63733,16,0.62193,5,2,3,0.61828,1,31,17,14,8,6,4,0,11,9,4,14,2,8,0,23,17,2,0,21,3,21,3
 2,LSU,SEC,3,3,22,0.63004,20,0.61534,22,1,9,0.60423,1,34,21,9,8,5,5,7,15,10,4,9,2,8,0,26,21,2,0,21,9,21,9

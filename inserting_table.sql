@@ -1,29 +1,38 @@
 -- Create a new table
-CREATE TABLE people (
-  name VARCHAR(30) NOT NULL,
-  has_pet BOOLEAN DEFAULT false,
-  pet_type VARCHAR(10) NOT NULL,
-  pet_name VARCHAR(30),
-  pet_age INT
+CREATE TABLE softball (
+  team VARCHAR(75) NOT NULL,
+  conference VARCHAR(15),
+  sos INT,
+  prev_sos INT,
+  adj_rpi INT,
+  adj_rpi_vale FLOAT,
+  rpi INT,
+  rpi_value FLOAT,
+  adj_non-conf_rpi INT,
+  conf_rpi INT,
+  nc_sos INT,
+  nc_sos_value FLOAT, 
+  advanced INT,
+  win INT,
+  loss INT,
+  road_win INT,
+  road_loss INT,
+  last_10_win INT,
+  last_10_loss INT,
+  rpi_1_win INT,
+  rpi_1_loss INT,
+  rpi_26_win INT,
+  rpi_26_loss INT,
+  rpi_51_win INT,
+  rpi_51_loss INT,
+  rpi_101_win INT,
+  rpi_101_loss INT,
+  top_100_win INT,
+  top_100_loss INT,
+  below_150_win INT,
+  below_150_loss INT,
+  non_conf_win INT,
+  non_conf_loss INT,
+  conf_win INT,
+  conf_loss INT
 );
-
--- Query all fields from the table
-SELECT *
-FROM people;
-
--- Insert data into the table
-INSERT INTO people (name, has_pet, pet_type, pet_name, pet_age)
-VALUES ('Jacob', true, 'dog', 'Misty', 10),
-  ('Ahmed', true, 'rock', 'Rockington', 100),
-  ('Peter', true, 'cat', 'Franklin', 2),
-  ('Dave', true, 'dog', 'Queso', 1);
-
--- Query only the `pet_name` field
-SELECT pet_name
-FROM people;
-
--- Filter the query to show only dogs under the age of 5
-SELECT pet_type, pet_name
-FROM people
-WHERE pet_type = 'dog'
-AND pet_age < 5;

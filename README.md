@@ -31,7 +31,7 @@ I also looked into the relation between RPI and wins and losses. There were stro
 
 
 ## Visualizations
-Visualizations were generated using pandas and matplotlib. A separate Tableau visualization was also created. https://public.tableau.com/app/profile/angele.yazbec/viz/WCWS2022Insight/Story1
+Visualizations were generated using pandas and matplotlib. I also created a separate Tableau storyboard to summarize key performance indicators. https://public.tableau.com/app/profile/angele.yazbec/viz/WCWS2022Insight/Story1
 
 ## SQL Queries
 A table schema was created before inserting the transformed data from Python.
@@ -71,4 +71,4 @@ After training the model, the overall accuracy was 85.5%, which was lower than m
 
 ## Conclusion
 
-I explored a few different factors that could predict whether a softball team would be chosen to advance to the NCAA tournament. Using publicly available data, I was able to develop a fairly accurate Logistic Regression Model that predicts a teams advancement status correctly 92% of the time. Additional visualizations, analyses, and queries lend more insight for how factors such as RPI, SOS, wins, and losses are related to advancement status. I want to acknowledge that many other factors play an important role and more inclusive datasets would provide even more detailed insight and would possibly improve the machine learning model developed.
+I explored a few different factors that could predict whether a softball team would be chosen to advance to the NCAA tournament. Using publicly available data, I was able to develop a fairly accurate Logistic Regression Model that predicts a teams advancement status correctly 92% of the time. Additional visualizations, analyses, and queries lend more insight for how factors such as RPI, SOS, wins, and losses are related to advancement status.

@@ -1,4 +1,4 @@
-# ncaa-softball-analysis
+# NCAA-Softball-Analysis
 
 ## Background and Sources
 My favorite sport of all time is softball. I played this sport since early childhood. While I never played in college, I absolutely enjoy watching the the NCAA Torunament and Women's College World Seres (WCWS) every May-June. 
